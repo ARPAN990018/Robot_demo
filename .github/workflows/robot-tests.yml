@@ -27,4 +27,4 @@ jobs:
 
       - name: Run Robot tests
         run: |
-          robot tests/fullform.robot
+          robot tests/fullform.robot  tests/pageopen.robot
